@@ -1,0 +1,5 @@
+VAR
+	URTK1 : URTK := (0);
+	URTKView_0 : URTKView := (0);
+	urtk_out : URTK;
+END_VAR

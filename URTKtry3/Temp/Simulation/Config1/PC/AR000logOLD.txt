@@ -1,0 +1,21 @@
+Fri Jan  8 21:30:03 2021
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri Jan  8 21:30:03 2021
+No ARsim registration found!
+
+Fri Jan  8 21:30:03 2021
+InstanceName: 01d6e5ec47ea7a80
+
+Fri Jan  8 21:30:03 2021
+WorkingDirectory: M:\BR\URTKtry3\Temp\Simulation\Config1\PC\
+
+Fri Jan  8 21:30:03 2021
+COMMAND_COLDSTART
+
+Fri Jan  8 21:30:05 2021
+Version: C4.90
+
+Fri Jan  8 21:30:07 2021
+COMMAND_TERMINATE
+
