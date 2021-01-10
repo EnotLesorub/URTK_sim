@@ -5,7 +5,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="593" HashValue="5560A0FB937985591D64D3179581F1FA" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="592" HashValue="02D12848D7998BE1423B6DFA93C1AA4B" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1" IgnoreDifference="0" />
@@ -56,7 +56,7 @@
 			<Module Name="::FWRules" Type="136" Size="456" Modified="2021-01-08 21:29:43" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Role" Type="136" Size="760" Modified="2021-01-08 21:29:43" Version="1.00" ProjectDependent="1" />
 			<Module Name="::URTKLib" Type="18" Size="34572" Modified="2021-01-08 21:29:40" Version="1.00" ProjectDependent="1" />
-			<Module Name="::URTKPrg" Type="17" Size="4220" Modified="2021-01-10 17:22:51" Version="1.00" ProjectDependent="1" />
+			<Module Name="::URTKPrg" Type="17" Size="4436" Modified="2021-01-10 17:41:07" Version="1.00" ProjectDependent="1" />
 			<Module Name="::User" Type="136" Size="648" Modified="2021-01-08 21:29:43" Version="1.00" ProjectDependent="1" />
 			<Module Name="::ashwac" Type="136" Size="212" Modified="2021-01-08 21:29:43" Version="1.00" ProjectDependent="1" />
 			<Module Name="::iomap" Type="50" Size="304" Modified="2021-01-08 21:29:43" Version="1.00" ProjectDependent="1" />

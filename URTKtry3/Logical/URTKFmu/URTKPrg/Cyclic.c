@@ -33,24 +33,17 @@ void _CYCLIC ProgramCyclic(void)
 	urtk_out.internal_movementZ2 = URTK1.internal_movementZ2 + 117;
 	urtk_out.internal_movementZ3 = URTK1.internal_movementZ3 - 48.6654;
 	
-	int sensorX1 = 0;
-	int sensorX2 = 0;
-	int sensorY1 = 0;
-	int sensorY2 = 0;
-	int sensorZ1 = 0;
-	int sensorZ2 = 0;
-	
 	if (urtk_out.internal_movementX1 <= 80)
 	{
 		sensorX1 = 1;
-		if (sensorX1 = 1 && URTK1.Xinputvelocity > 0)
+		if (URTK1.Xinputvelocity > 0)
 			URTK1.Xinputvelocity = 0;
 	}
 	
 	if (urtk_out.internal_movementX1 >= 340)
 	{
 		sensorX2 = 1;
-		if (sensorX2 = 1 && URTK1.Xinputvelocity < 0)
+		if (URTK1.Xinputvelocity < 0)
 			URTK1.Xinputvelocity = 0;
 	}
 	
@@ -63,14 +56,14 @@ void _CYCLIC ProgramCyclic(void)
 	if (urtk_out.internal_movementZ2 <= 130)
 	{
 		sensorY1 = 1;
-		if (sensorY1 = 1 && URTK1.Zimputevelocity < 0)
+		if (URTK1.Zimputevelocity < 0)
 			URTK1.Zimputevelocity = 0;
 	}
 	
 	if (urtk_out.internal_movementZ2 >= 390)
 	{
 		sensorY2 = 1;
-		if (sensorY2 = 1 && URTK1.Zimputevelocity > 0)
+		if (URTK1.Zimputevelocity > 0)
 			URTK1.Zimputevelocity = 0;
 	}
 	
@@ -83,14 +76,14 @@ void _CYCLIC ProgramCyclic(void)
 	if (urtk_out.internal_axisY3 <= -255)
 	{
 		sensorZ1 = 1;
-		if (sensorZ1 = 1 && URTK1.Yimputvelocity < 0)
+		if (URTK1.Yimputvelocity < 0)
 			URTK1.Yimputvelocity = 0;
 	}
 	
 	if (urtk_out.internal_axisY3 >= 10)
 	{
 		sensorZ2 = 1;
-		if (sensorZ2 = 1 && URTK1.Yimputvelocity > 0)
+		if (URTK1.Yimputvelocity > 0)
 			URTK1.Yimputvelocity = 0;
 	}
 	

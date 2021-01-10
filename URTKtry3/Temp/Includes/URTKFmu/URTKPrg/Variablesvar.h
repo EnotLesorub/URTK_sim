@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1610130576_4_
-#define _BUR_1610130576_4_
+#ifndef _BUR_1610289389_1_
+#define _BUR_1610289389_1_
 
 #include <bur/plctypes.h>
 
@@ -13,6 +13,12 @@
 
 
 /* Variables */
+_BUR_LOCAL unsigned char sensorZ2;
+_BUR_LOCAL unsigned char sensorZ1;
+_BUR_LOCAL unsigned char sensorY2;
+_BUR_LOCAL unsigned char sensorY1;
+_BUR_LOCAL unsigned char sensorX2;
+_BUR_LOCAL unsigned char sensorX1;
 _BUR_LOCAL struct URTK urtk_out;
 _BUR_LOCAL struct URTKView URTKView_0;
 _BUR_LOCAL struct URTK URTK1;
@@ -32,5 +38,5 @@ __asm__(".ascii \"iecfile \\\"Logical/URTKFmu/URTKLib/URTKLib.fun\\\" scope \\\"
 __asm__(".previous");
 
 
-#endif /* _BUR_1610130576_4_ */
+#endif /* _BUR_1610289389_1_ */
 
